@@ -1,0 +1,41 @@
+@font-face {
+    font-family: simspsonfont;
+    src: url("fonts/simpsonfont.woff");
+}
+
+@font-face {
+    font-family: simspsonfont;
+    src: url("fonts/simpsonfont.ttf");
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+	background-color:#3ca6ce;
+}
+
+img {
+    max-width: 600px;
+}
+
+h1 {
+	font-family:simpsonfont;
+}
+
+#link {
+	font-family:simpsonfont;
+	font-size:x-large;
+}
+
+/*Set hyperink style*/
+a {
+	color:#fbd738;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+a:hover {
+	opacity:0.5;
+}
